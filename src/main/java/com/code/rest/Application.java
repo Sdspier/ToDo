@@ -1,7 +1,7 @@
 /*
  * Main driver class
  */
-package com.mycompany.sspier.code.rest;
+package com.code.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

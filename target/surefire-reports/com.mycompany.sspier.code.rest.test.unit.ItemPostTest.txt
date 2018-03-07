@@ -2,7 +2,7 @@
 Test set: com.mycompany.sspier.code.rest.test.unit.ItemPostTest
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in com.mycompany.sspier.code.rest.test.unit.ItemPostTest
-initializationError(com.mycompany.sspier.code.rest.test.unit.ItemPostTest)  Time elapsed: 0.002 sec  <<< ERROR!
+initializationError(com.mycompany.sspier.code.rest.test.unit.ItemPostTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.Exception: No runnable methods
 	at org.junit.runners.BlockJUnit4ClassRunner.validateInstanceMethods(BlockJUnit4ClassRunner.java:191)
 	at org.junit.runners.BlockJUnit4ClassRunner.collectInitializationErrors(BlockJUnit4ClassRunner.java:128)

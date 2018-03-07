@@ -1,7 +1,7 @@
 /*
  * Controller class
  */
-package com.mycompany.sspier.code.rest.controller;
+package com.code.rest.controller;
 
 import java.util.Collection;
 import java.util.List;
@@ -18,10 +18,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mycompany.sspier.code.rest.domain.Item;
-import com.mycompany.sspier.code.rest.repository.ItemRepository;
-import com.mycompany.sspier.code.rest.resource.ItemResource;
-import com.mycompany.sspier.code.rest.resource.ItemResourceAssembler;
+import com.code.rest.domain.Item;
+import com.code.rest.repository.ItemRepository;
+import com.code.rest.resource.ItemResource;
+import com.code.rest.resource.ItemResourceAssembler;
 
 @CrossOrigin(origins = "*") //specify what cross domain requests are allowed
 @RestController

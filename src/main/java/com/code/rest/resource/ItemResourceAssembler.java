@@ -1,9 +1,9 @@
 /*
  * Class for assembling and finalizing the links for the Item objects
  */
-package com.mycompany.sspier.code.rest.resource;
+package com.code.rest.resource;
 
-import com.mycompany.sspier.code.rest.domain.Item;
+import com.code.rest.domain.Item;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.EntityLinks; //accessor to links pointing to controllers backing an entity type

@@ -1,7 +1,7 @@
 /*
  * Class for generating unique ids; injectable
  */
-package com.mycompany.sspier.code.rest.repository;
+package com.code.rest.repository;
 
 import java.util.concurrent.atomic.AtomicLong;
 

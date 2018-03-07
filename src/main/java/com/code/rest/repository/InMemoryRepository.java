@@ -1,9 +1,9 @@
 /*
  * Class for holding data in-memory instead of a DB
  */
-package com.mycompany.sspier.code.rest.repository;
+package com.code.rest.repository;
 
-import com.mycompany.sspier.code.rest.domain.Identifiable;
+import com.code.rest.domain.Identifiable;
 
 import java.util.ArrayList;
 import java.util.Collections;

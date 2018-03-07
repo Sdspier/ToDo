@@ -1,4 +1,4 @@
-package com.mycompany.sspier.code.rest.test.unit;
+package com.code.rest.test.unit;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mycompany.sspier.code.rest.Application;
+import com.code.rest.Application;
 
 @WebAppConfiguration
 @ContextConfiguration(classes = Application.class)

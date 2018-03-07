@@ -1,7 +1,7 @@
 /*
  * Abstract class to facilitate Item(s) to ItemResource(s)
  */
-package com.mycompany.sspier.code.rest.resource;
+package com.code.rest.resource;
 
 import java.util.Collection;
 import java.util.stream.Collectors;

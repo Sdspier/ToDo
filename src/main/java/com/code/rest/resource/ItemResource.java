@@ -2,10 +2,10 @@
  * Class for creating links for the Item class and creating a Resource object
  * from it as well.
  */
-package com.mycompany.sspier.code.rest.resource;
+package com.code.rest.resource;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.mycompany.sspier.code.rest.domain.Item;
+import com.code.rest.domain.Item;
 import org.springframework.hateoas.ResourceSupport;
 
 // Spring ResourceSupport enables the attaching of links to resources.

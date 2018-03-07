@@ -1,7 +1,7 @@
 /*
  * Test the POST 
  */
-package com.mycompany.sspier.code.rest.test.unit;
+package com.code.rest.test.unit;
 
 
 import org.junit.Assert;

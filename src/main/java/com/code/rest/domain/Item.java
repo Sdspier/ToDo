@@ -1,7 +1,7 @@
 /*
  * Core domain class 
  */
-package com.mycompany.sspier.code.rest.domain;
+package com.code.rest.domain;
 
 public class Item implements Identifiable {
 

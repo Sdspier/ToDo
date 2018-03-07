@@ -1,7 +1,7 @@
 /*
  * Test class
  */
-package com.mycompany.sspier.code.rest.test.run;
+package com.code.rest.test.run;
 
 import com.mycompany.sspier.code.rest.test.unit.ItemPostTest;
 import org.junit.Test;

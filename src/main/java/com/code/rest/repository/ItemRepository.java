@@ -2,9 +2,9 @@
  * The Item objects do not know how to update themselves update, so the data 
  * source has to perform updates.
  */
-package com.mycompany.sspier.code.rest.repository;
+package com.code.rest.repository;
 
-import com.mycompany.sspier.code.rest.domain.Item;
+import com.code.rest.domain.Item;
 
 import org.springframework.stereotype.Repository;
 

@@ -1,9 +1,9 @@
 /*
  * Utilities for testing
  */
-package com.mycompany.sspier.code.rest.test.util;
+package com.code.rest.test.util;
 
-import com.mycompany.sspier.code.rest.domain.Item;
+import com.code.rest.domain.Item;
 
 import org.junit.Assert;
 
