@@ -1,4 +1,4 @@
-com/mycompany/sspier/code/rest/test/util/ItemTestUtils.class
-com/mycompany/sspier/code/rest/test/run/TestRunner.class
-com/mycompany/sspier/code/rest/test/unit/AbstractFrame.class
-com/mycompany/sspier/code/rest/test/unit/ItemPostTest.class
+com/code/rest/test/unit/ItemPostTest.class
+com/code/rest/test/run/TestRunner.class
+com/code/rest/test/util/ItemTestUtils.class
+com/code/rest/test/unit/AbstractFrame.class

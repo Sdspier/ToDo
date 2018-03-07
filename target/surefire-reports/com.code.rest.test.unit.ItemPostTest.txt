@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.code.rest.test.unit.ItemPostTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.789 sec <<< FAILURE! - in com.code.rest.test.unit.ItemPostTest
+ItemSuccessfullyPosted(com.code.rest.test.unit.ItemPostTest)  Time elapsed: 0.019 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.code.rest.test.unit.ItemPostTest.ItemSuccessfullyPosted(ItemPostTest.java:26)
+

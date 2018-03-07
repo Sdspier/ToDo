@@ -3,8 +3,9 @@
  */
 package com.code.rest.test.unit;
 
-
+import com.code.rest.Application;
 import org.junit.Assert;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -13,24 +14,19 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class ItemPostTest extends AbstractFrame {
 
-    private static final String TEST_ITEM = "{\"description\": \"some test item\", "
+
+    String TEST_ITEM = "{\"description\": \"some test item\", "
             + "\"lineItems\": [{\"name\": \"test item\", \"title\": \"test title\", "
             + "\"description\": \"test description\", \"date\": \"02/02/2022\"}]}";
-    
-   
-    private void createItem() throws Exception {
+
+    public void createItem() throws Exception {
         post("/item", TEST_ITEM);
     }
-    
-    public void anItemExists() throws Throwable {
-        createItem();
-    }
 
-    public void theUserCallsGetOrders() throws Throwable {
+    @Test
+    public void ItemSuccessfullyPosted() throws Exception {
         createItem();
-    }
-
-    public void theOrderIsSuccessfullyCreated() {
         Assert.assertEquals(201, getLastPostResponse().getStatus());
     }
+
 }
