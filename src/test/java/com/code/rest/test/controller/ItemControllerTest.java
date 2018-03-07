@@ -2,12 +2,8 @@ package com.code.rest.test.controller;
 
 import com.code.rest.domain.Item;
 import com.code.rest.repository.ItemRepository;
-import static com.code.rest.test.util.TestUtils.*;
-
-import java.util.List;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertEquals;
-
 
 import org.junit.Before;
 import org.junit.Test;
@@ -33,12 +29,14 @@ public class ItemControllerTest extends ControllerIntegrationTest {
     private ItemRepository repository;
 
     @Before
-    public void setUp() { repository.clear(); }
-    
+    public void setUp() {
+        repository.clear();
+    }
+
     private ResultActions createItem(String s) throws Exception {
         return post("/item", s);
     }
-        
+
     @Test
     public void tesForValidPostReturn() throws Exception {
         createItem(TEST_ITEM);
@@ -50,7 +48,6 @@ public class ItemControllerTest extends ControllerIntegrationTest {
         getItem().andExpect(status().isOk()).andExpect(content().string(equalTo("[]")));
     }
 
-    
     private ResultActions getItem() throws Exception {
         return get("/item");
     }
@@ -71,7 +68,7 @@ public class ItemControllerTest extends ControllerIntegrationTest {
     public void testGetNonexistentItemEnsureNotFoundResponse() throws Exception {
         getItem(1).andExpect(status().isNotFound());
     }
-    
+
     private ResultActions updateItem(long id, Item updatedItem) throws Exception {
         return put("/item/{id}", updatedItem, String.valueOf(id));
     }
