@@ -1,4 +1,3 @@
-com/code/rest/test/unit/ItemPostTest.class
-com/code/rest/test/run/TestRunner.class
-com/code/rest/test/util/ItemTestUtils.class
-com/code/rest/test/unit/AbstractFrame.class
+com/code/rest/test/controller/ControllerIntegrationTest.class
+com/code/rest/test/util/TestUtils.class
+com/code/rest/test/controller/ItemControllerTest.class
