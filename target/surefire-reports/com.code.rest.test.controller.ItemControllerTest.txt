@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.code.rest.test.controller.ItemControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE! - in com.code.rest.test.controller.ItemControllerTest
-initializationError(com.code.rest.test.controller.ItemControllerTest)  Time elapsed: 0.009 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE! - in com.code.rest.test.controller.ItemControllerTest
+initializationError(com.code.rest.test.controller.ItemControllerTest)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NoSuchMethodError: org.springframework.util.Assert.state(ZLjava/util/function/Supplier;)V
 	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.ensureSpringRulesAreNotPresent(SpringJUnit4ClassRunner.java:120)
 	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:141)

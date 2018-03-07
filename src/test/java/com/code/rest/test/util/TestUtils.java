@@ -1,15 +1,8 @@
 package com.code.rest.test.util;
 
 import com.code.rest.domain.Item;
-import org.junit.Assert;
 
 public class TestUtils {
-
-    public static void assertAllButIdsMatchBetweenItems(Item expected, Item actual) {
-        Assert.assertEquals(expected.getTitle(), actual.getTitle());
-        Assert.assertEquals(expected.getDescription(), actual.getDescription());
-        Assert.assertEquals(expected.getDate(), actual.getDate());
-    }
 
     public static Item generateTestItem() {
         Item item = new Item();
